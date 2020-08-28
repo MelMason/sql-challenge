@@ -1,0 +1,66 @@
+drop table department;
+create table department (
+	id INTEGER PRIMARY KEY,
+	dept_no text NOT NULL,
+	dept_name VARCHAR NOT NULL
+);
+
+select * from department;
+
+	dept_no VARCHAR,
+	dept_name VARCHAR
+);
+
+select * from department;
+
+drop table department_employees;
+create table department_employees (
+	id serial,
+	emp_no integer NOT NULL,
+	dept_no VARCHAR NOT NULL,
+	from_date character varying NOT NULL,
+	to_date character varying NOT NULL
+);
+select * from department_employees; 
+
+drop table department_managers;
+create table department_managers (
+	id serial,
+	dept_no VARCHAR NOT NULL,
+	emp_no integer NOT NULL,
+	from_date character varying NOT NULL,
+	to_date character varying NOT NULL
+);
+select * from department_managers; 
+
+drop table employees;
+create table employees (
+	id serial,
+	emp_no integer NOT NULL,
+	birth_date character varying NOT NULL,
+	first_name VARCHAR NOT NULL,
+	last_name VARCHAR NOT NULL,
+	gender VARCHAR NOT NULL,
+	hire_date character varying NOT NULL
+);
+select * from employees; 
+
+drop table salaries;
+create table salaries (
+	id serial,
+	emp_no integer NOT NULL,
+	salary VARCHAR NOT NULL,
+	from_date character varying NOT NULL,
+	to_date character varying NOT NULL
+);
+select * from salaries; 
+
+drop table titles;
+create table titles (
+	id serial,
+	emp_no integer NOT NULL,
+	title VARCHAR NOT NULL,
+	from_date character varying NOT NULL,
+	to_date character varying NOT NULL
+);
+select * from titles; 
