@@ -17,12 +17,12 @@ In this challenge, the following will be performed:
 
 #### Data Modeling
 
-Inspect the CSVs and sketch out an ERD of the tables.
-[ERD](SQLfiles/ERD.png)
+Inspect the CSVs and sketch out an [ERD](SQLfiles/ERD.png) of the tables.
+![ERD](SQLfiles/ERD.png)
 
 #### Data Engineering
 
-* Use the information you have to create a [table schema](SQLfiles/table_schemata.sql) for each of the six CSV files. 
+* Use the information to create a [table schema](SQLfiles/table_schemata.sql) for each of the six CSV files. 
 
 * Import each CSV file into the corresponding SQL table.
 
