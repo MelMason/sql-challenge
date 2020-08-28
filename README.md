@@ -1,6 +1,6 @@
 # SQL Challenge - Employee Database
 
-![sql.png](sql.png)
+
 
 ## Background
 
@@ -18,11 +18,11 @@ In this challenge, the following will be performed:
 #### Data Modeling
 
 Inspect the CSVs and sketch out an ERD of the tables.
-![ERD][SQL files\ERD.png]
+![ERD](SQL files\ERD.png)
 
 #### Data Engineering
 
-* Use the information you have to create a ["table schema"][SQL files\table_schemata.sql] for each of the six CSV files. 
+* Use the information you have to create a ["table schema"](SQL files\table_schemata.sql) for each of the six CSV files. 
 
 * Import each CSV file into the corresponding SQL table.
 
